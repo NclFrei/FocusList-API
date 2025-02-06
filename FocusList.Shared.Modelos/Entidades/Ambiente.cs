@@ -8,7 +8,7 @@ namespace FocusList.Shared.Modelos.Entidades;
 
 public class Ambiente
 {
-    public int IdAmbiente { get; set; }
+    public int Id { get; set; }
     public string Nome { get; set; }
     public string Descricao { get; set; }
 }

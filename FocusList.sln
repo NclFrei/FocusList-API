@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusList", "FocusList\FocusList.csproj", "{ED37ABF4-E42E-414B-A2D5-F5539F8635A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusList", "FocusList\FocusList.csproj", "{ED37ABF4-E42E-414B-A2D5-F5539F8635A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusList.Shared.Modelos", "FocusList.Shared.Modelos\FocusList.Shared.Modelos.csproj", "{280B1A2C-0649-4FC3-BC6A-F4F3999D2167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusList.Shared.Modelos", "FocusList.Shared.Modelos\FocusList.Shared.Modelos.csproj", "{280B1A2C-0649-4FC3-BC6A-F4F3999D2167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusList.Shared.Dados", "FocusList.Shared.Dados\FocusList.Shared.Dados.csproj", "{D76373E7-699B-4B17-9DCB-F19BEB52FB89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{280B1A2C-0649-4FC3-BC6A-F4F3999D2167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280B1A2C-0649-4FC3-BC6A-F4F3999D2167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280B1A2C-0649-4FC3-BC6A-F4F3999D2167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76373E7-699B-4B17-9DCB-F19BEB52FB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76373E7-699B-4B17-9DCB-F19BEB52FB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76373E7-699B-4B17-9DCB-F19BEB52FB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76373E7-699B-4B17-9DCB-F19BEB52FB89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
